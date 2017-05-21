@@ -9,7 +9,7 @@ The application solution is not 100% and always there is scope for improvements.
 So the inputs and outputs has been decided as an plain texts.
 It is assumed that provided instruction format is agreed between clients and JPMC.
 Application might throw exceptions if the format is changed and should be treated as normal.
-The input formats are provided in this rad me file.
+The input formats are provided in this read me file.Also a sample can be copied from the test/resource folder and placed to c:/jpmc/instructions.txt
 Assumed provided each entity type will have single trade type for a day either buy or sell for the day.
 System.out.println has been used for demo prints of the report to reduce uses of any Logger API dependency.
 Please open output reports in NOTEPAD++ for better visualise formats.
