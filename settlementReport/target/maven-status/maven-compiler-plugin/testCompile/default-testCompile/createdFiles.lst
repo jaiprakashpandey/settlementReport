@@ -1,0 +1,7 @@
+report\io\Impl\TradeInfoReaderWriterServiceTest.class
+report\common\ReportEnumTest.class
+report\common\ReportUtilTest.class
+report\common\ReportProcessorErrorMsgTest.class
+report\domain\TradeTest.class
+report\error\ReportProcessorExceptionTest.class
+report\domain\ReportTest.class
