@@ -9,12 +9,23 @@ The application solution is not 100% and always there is scope for improvements.
 So the inputs and outputs has been decided as an plain texts.
 It is assumed that provided instruction format is agreed between clients and JPMC.
 Application might throw exceptions if the format is changed and should be treated as normal.
+The input formats are provided in this rad me file.
 Assumed provided each entity type will have single trade type for a day either buy or sell for the day.
 System.out.println has been used for demo prints of the report to reduce uses of any Logger API dependency.
 Please open output reports in NOTEPAD++ for better visualise formats.
-The path is C:/jpmc/instructions.txt
+The input path for instructions is C:/jpmc/instructions.txt
 The path for report is C:/jpmc/TradeReport.txt
 The path for rank repots is C:/jpmc/Ranks.txt
+
+## Input formats used, must be used below to proceed
+please create file named instructions.txt inside c:/jpmc/instructions.txt, format must be below.
+
+Entity Buy/Sell AgreedFx Currency InstructionDate SettlementDate Units Price per unit
+foo B 0.11 SEK 01 Jan 2016 02 Jan 2016 900 900.25
+bar s 0.12 INR 07 Jan 2016 06 Jan 2016 450 150.25
+
+A sample file can be copied from the \settlementReport\src\test\resources\instructions.txt , please copy this and paste into c://jpmc/instructions.txt
+
 
 ## Main application class file name
   ReportApplication.java
